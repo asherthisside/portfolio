@@ -4,4 +4,9 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+}
+
+.container {
+  height: 100vh;
+  background: radial-gradient(rgb(255, 87, 87), rgba(0, 0, 0, 0.6));
 }/*# sourceMappingURL=style.css.map */

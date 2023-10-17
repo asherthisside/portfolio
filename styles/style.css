@@ -48,6 +48,7 @@ nav {
   right: 1rem;
   height: calc(100% - 6rem);
   width: 3rem;
+  z-index: 10;
 }
 
 .controls {
@@ -84,4 +85,18 @@ nav {
 main {
   height: 100%;
   background-color: var(--color-grey-1);
+  position: relative;
+}
+main .active {
+  display: block;
+}
+
+.section {
+  height: 100%;
+  width: 100%;
+  background-color: red;
+  margin-bottom: 2rem;
+  position: absolute;
+  font-size: 4rem;
+  display: none;
 }/*# sourceMappingURL=style.css.map */

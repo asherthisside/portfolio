@@ -39,13 +39,13 @@
 
 .container {
   height: 100vh;
-  padding: 3rem;
+  padding: 2rem;
   position: relative;
 }
 
 nav {
   position: fixed;
-  right: 2rem;
+  right: 1rem;
   height: calc(100% - 6rem);
   width: 3rem;
 }
@@ -57,6 +57,12 @@ nav {
   align-items: center;
   justify-content: center;
   gap: 1rem;
+}
+.controls .active {
+  background-color: var(--color-secondary);
+}
+.controls .active i {
+  color: var(--color-white);
 }
 
 .control {
@@ -70,6 +76,12 @@ nav {
   box-shadow: var(--box-shadow-1);
 }
 .control i {
-  color: var(--color-grey-1);
+  color: var(--color-grey-2);
   font-size: 1.25rem;
+  pointer-events: none;
+}
+
+main {
+  height: 100%;
+  background-color: var(--color-grey-1);
 }/*# sourceMappingURL=style.css.map */

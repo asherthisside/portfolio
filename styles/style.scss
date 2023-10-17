@@ -41,13 +41,13 @@ $primary-font: 'Poppins', sans-serif;
 
 .container {
     height: 100vh;
-    padding: 3rem;
+    padding: 2rem;
     position: relative;
 }
 
 nav {
     position: fixed;
-    right: 2rem;
+    right: 1rem;
     height: calc(100% - 6rem);
     width: 3rem;
 }
@@ -59,6 +59,14 @@ nav {
     align-items: center;
     justify-content: center;
     gap: 1rem;
+
+    .active {
+        background-color: var(--color-secondary);
+        
+        i {
+            color: var(--color-white);
+        }
+    } 
 } 
 
 .control {
@@ -72,7 +80,13 @@ nav {
     box-shadow: var(--box-shadow-1);
 
     i {
-        color: var(--color-grey-1);
+        color: var(--color-grey-2);
         font-size: 1.25rem;
-    }
+        pointer-events: none;
+    }  
+}
+
+main {
+    height: 100%;
+    background-color: var(--color-grey-1);
 }

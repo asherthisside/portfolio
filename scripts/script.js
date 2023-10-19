@@ -32,3 +32,8 @@ controlButtons.forEach((button, index) => {
         sections[index].classList.add("active");
     });
 });             // Alternative 2
+
+let btn = document.querySelector(".btn")
+btn.addEventListener("click", () => {
+    document.body.classList.toggle("light-mode")
+})
